@@ -1,0 +1,138 @@
+  Dashboard Analítico                                                                                                                                                      Data de atualização: 26/05/2025
+                                                                                                                                                                           Período analisado: Último mês
+  Instituto Aaron Swartz | 4º Ano - 2025
+
+
+📊 Métricas Gerais
+ ALUNOS ATIVOS                                        TAXA DE ACERTO MÉDIA                                 TEMPO MÉDIO DE ENGAJAMENTO                           ATIVIDADES COMPLETADAS
+ 36                                                   57.8%                                                48min                                                2,472
+ de 38 alunos matriculados                            com variação de 33.3% a 89.1%                        por aluno/último mês                                 média de 68 por aluno
+
+
+
+
+🧠 Desempenho por Área do Conhecimento
+
+
+
+
+⏱️ Relação Entre Engajamento e Desempenho
+
+
+
+
+  Principais Insights:
+    Correlação positiva moderada entre tempo de estudo e desempenho (alunos com mais de 1h de uso tendem a ter melhor desempenho)
+    Alguns alunos mostram alta eficiência: alto desempenho com tempo de uso relativamente baixo (Ex: Ana Vitória, Rafaela Vitória)
+    Identificados 5 alunos com baixa eficiência (significativo tempo de uso mas baixa taxa de acerto)
+    Tempo médio por atividade varia significativamente entre alunos (de 15 a 55 segundos por atividade)
+
+
+
+👥 Perfis de Desempenho
+           Alta Eficiência                                                        Esforço Consistente                                                    Necessitam Intervenção
+
+ Alunos com alto desempenho e tempo de uso abaixo                     Alunos com desempenho e tempo de uso próximos à                          Alunos com baixo desempenho ou sem atividades no
+ da média.                                                            média.                                                                   período.
+
+   7 alunos (18%)                                                          19 alunos (50%)                                                        12 alunos (32%)
+   Taxa média de acerto: 76.2%                                             Taxa média de acerto: 58.5%                                            Taxa média de acerto: 36.7%
+   Tempo médio: 28min/mês                                                  Tempo médio: 52min/mês                                                 2 alunos sem atividades no período
+
+ Alunos:                                                              Exemplos:                                                                Alunos críticos:
+    Ana Vitória Batista (86.7%)                                            Arthur Martins (62.6%)                                                  Miguel de Souza Almeida (33.3%)
+    Rafaela Vitória Valim (70%)                                            Eduardo Emanuel (68.1%)                                                 Emanuelly Vieira Santos (35.4%)
+    Lais Ribeiro Carvalho (89.1%)                                          Nicolas Henrique (65%)                                                  Davi Luiz Ramos Fernandes (36.4%)
+    Mariana Macedo Pinto (84.6%)                                           Theo Felipe (65.1%)                                                     Christian Rafael (38.5%)
+    Maria Eduarda (59.3%)                                                  Paulo Miguel (64.4%)                                                    Miqueias Aniceto (sem atividades)
+
+
+
+
+🏆 Destaques de Desempenho                                                                                ⚠️ Alunos que Precisam de Atenção
+ Aluno                                        Taxa de Acerto                Progresso                       Aluno                               Taxa de Acerto Principal Dificuldade
+
+ Lais Ribeiro Carvalho                        89.1%                                                         Miguel de Souza Almeida             33.3%               Leitura de números de 4 algarismos
+
+ Ana Vitória Batista                          86.7%                                                         Emanuelly Vieira Santos             35.4%               Comparação na reta numérica
+
+ Mariana Macedo Pinto                         84.6%                                                         Davi Luiz Ramos Fernandes           36.4%               Escrita de números de 4 algarismos
+
+ Milena Simões Correa                         74.4%                                                         Christian Rafael                    38.5%               Leitura de números de 4 algarismos
+
+ Yuri Gabriel                                 74.2%                                                         Miqueias Aniceto                    0%                  Sem atividades registradas
+
+
+
+
+🧩 Principais Dificuldades Identificadas
+
+
+
+
+  Análise das Dificuldades                                                                               Progressão das Dificuldades
+    Arredondamento de números de três algarismos às dezenas e centenas é a
+                                                                                                            Alerta: As dificuldades com arredondamento e adição estão comprometendo o avanço para
+    dificuldade mais comum na turma                                                                         conteúdos mais complexos como adição com reagrupamento e cálculo mental.
+    Adição na reta numérica e adição com reagrupamento apresenta desafio para um
+    grupo significativo
+                                                                                                            Oportunidade: O bom domínio da leitura de números pode ser usado como base para
+    Ordenação e comparação de números na reta numérica também aparece como                                  superar as dificuldades com reta numérica e arredondamento.
+    dificuldade recorrente
+    Alguns alunos mostram dificuldade específica na leitura e escrita de números de 4
+    algarismos
+
+
+
+
+💡 Recomendações Pedagógicas
+           Intervenções Prioritárias                                                                                 Estratégias de Engajamento
+
+ 1. Arredondamento de números                                                                                  Criar rotina semanal de uso da plataforma (pelo menos 3 vezes por semana)
+ Dificuldade identificada em 38% dos alunos                                                                    Implementar sistema de monitoria entre pares com alunos de alto desempenho
+    Oficina prática com material concreto para visualização                                                    Realizar desafios matemáticos semanais com reconhecimento do progresso
+    Jogos digitais específicos sobre aproximação às dezenas e centenas                                         Estabelecer comunicação regular com responsáveis sobre o uso da plataforma
+    Exercícios contextualizados com situações cotidianas                                                       Integrar atividades do Blueberry Math com projetos em sala de aula
+    Utilização da reta numérica como apoio visual para arredondamento
+
+
+ 2. Adição na reta numérica e com reagrupamento
+                                                                                                                     Plano de Ação: Próximos 30 Dias
+ Dificuldade identificada em 32% dos alunos
+    Uso de material manipulativo e ábaco para compreensão do reagrupamento                                  Semana 1                                                                             27/05 - 31/05
+    Construção coletiva de retas numéricas de grande formato                                                Reunião individual com alunos que necessitam de intervenção; Reforço em arredondamento
+    Atividades lúdicas de deslocamento na reta numérica
+    Sequência didática gradual: sem reagrupamento → com reagrupamento                                       Semana 2                                                                             03/06 - 07/06
+                                                                                                            Oficina de adição na reta numérica; Início do sistema de monitoria entre pares
+                                                                                                            Semana 3                                                                             10/06 - 14/06
+ 3. Ordenação e comparação de números
+                                                                                                            Foco em adição com reagrupamento; Desafio matemático com ordenação de números
+ Dificuldade identificada em 26% dos alunos
+                                                                                                            Semana 4                                                                             17/06 - 21/06
+    Jogos de ordenação com cartas numéricas
+                                                                                                            Avaliação do progresso; Reunião com responsáveis dos alunos com intervenção prioritária
+    Atividades de comparação utilizando símbolos < e > com materiais concretos
+    Construção de linhas do tempo numéricas
+    Situações-problema contextualizadas envolvendo comparação
+
+
+
+
+🎯 Conclusão
+  A análise dos dados da turma do 4º ano do Instituto Aaron Swartz mostra um cenário heterogêneo, com taxa média de acerto de 57.8%. Destacam-se positivamente 7 alunos
+  (18%) com desempenho acima de 70%, enquanto 12 alunos (32%) apresentam taxas de acerto abaixo de 40% ou não realizaram atividades no período.
+  As principais dificuldades identificadas estão concentradas em arredondamento de números, adição na reta numérica e com reagrupamento, e ordenação/comparação de
+  números. Essas dificuldades, se não abordadas, podem comprometer o avanço para conteúdos mais complexos que dependem destes conhecimentos fundamentais.
+  A análise da relação entre tempo de engajamento e desempenho mostra correlação positiva, mas com casos notáveis de alta e baixa eficiência que merecem atenção
+  individualizada. O plano de ação para os próximos 30 dias deve focar tanto nas intervenções específicas para superar as principais dificuldades quanto em estratégias de
+  engajamento para aumentar o tempo de uso da plataforma, especialmente para os alunos com baixo ou nenhum engajamento.
+
+    Recomenda-se um acompanhamento mais próximo dos alunos identificados como prioridade para intervenção, com comunicação regular com seus responsáveis e
+    estratégias diferenciadas de ensino que possam atender às suas necessidades específicas.
+
+
+
+
+                                                                         Dashboard Analítico - Instituto Aaron Swartz (4º Ano - 2025)
+                                                                            Desenvolvido com base nos dados do Blueberry Math
+
