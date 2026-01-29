@@ -1,141 +1,267 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# Sistema de Checkpoints - Blueberry Math Analyzer 3.0
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+## 📋 O que são Checkpoints?
 
-## ✨ Technology Stack
-
-This scaffold provides a robust foundation built with:
-
-### 🎯 Core Framework
-- **⚡ Next.js 16** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
-
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
-
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
-
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Fetch** - Promise-based HTTP request
-
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
-
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
-
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
-
-## 🎯 Why This Scaffold?
-
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
-
-## 🚀 Quick Start
-
-```bash
-# Install dependencies
-bun install
-
-# Start development server
-bun run dev
-
-# Build for production
-bun run build
-
-# Start production server
-bun start
-```
-
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
-
-## 🤖 Powered by Z.ai
-
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
-
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
-
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
-
-## 📁 Project Structure
-
-```
-src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
-```
-
-## 🎨 Available Features & Components
-
-This scaffold includes a comprehensive set of modern web development tools:
-
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
-
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
-
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
-
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Fetch + TanStack Query
-- **State Management**: Simple and scalable with Zustand
-
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
-
-## 🤝 Get Started with Z.ai
-
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+Checkpoints são snapshots instantâneos do estado do projeto. Eles permitem:
+- ✅ Voltar ao estado anterior se algo der errado
+- ✅ Experimentar features sem medo de quebrar código
+- ✅ Documentar evolução do projeto ao longo do tempo
+- ✅ Restaurar funcionalidades que foram removidas
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+## 🚀 Como Usar
+
+### Criar um Novo Checkpoint
+
+```bash
+bash create-checkpoint.sh "Descrição do checkpoint"
+```
+
+**Exemplos:**
+```bash
+# Checkpoint simples
+bash create-checkpoint.sh
+
+# Com descrição
+bash create-checkpoint.sh "Login direto implementado"
+
+# Com descrição detalhada
+bash create-checkpoint.sh "Sistema de semáforo SESI Bahia integrado com validação matemática"
+```
+
+**O que é salvo:**
+- Todos os arquivos críticos do projeto
+- Diretórios: `src/app/api/blueberry`, `src/components/blueberry`, `src/lib`, `src/store`, `src/types`
+- Arquivo `MANIFESTO.md` com descrição do estado
+- Data e timestamp
+
+### Restaurar Checkpoint
+
+**Opção 1: Restaurar o checkpoint mais recente**
+```bash
+bash restore-checkpoint.sh
+```
+
+**Opção 2: Restaurar checkpoint específico**
+```bash
+bash restore-checkpoint.sh checkpoint_YYYYMMDD_HHMMSS
+```
+
+**Exemplo:**
+```bash
+bash restore-checkpoint.sh checkpoint_20260127_143814
+```
+
+### Listar Checkpoints Disponíveis
+
+```bash
+ls -lht /home/z/my-project/checkpoints/
+```
+
+**Saída mostra:**
+- Data de criação
+- Tamanho do checkpoint
+- Nome/ID
+
+---
+
+## 📂 Estrutura dos Checkpoints
+
+```
+checkpoints/
+├── README.md                          # Este arquivo
+├── checkpoint_20260127_143814/      # Snapshot específico
+│   ├── MANIFESTO.md                # Documentação do estado
+│   ├── src/
+│   │   ├── app/
+│   │   ├── components/blueberry/
+│   │   ├── lib/
+│   │   ├── store/
+│   │   └── types/
+│   └── package.json
+└── checkpoint_20260127_151234/
+    ├── MANIFESTO.md
+    └── src/
+        └── ...
+```
+
+---
+
+## 🔍 O que é Salvo por Checkpoint
+
+### Arquivos Críticos (Individuais)
+- `src/app/page.tsx` - Página principal
+- `src/app/layout.tsx` - Layout da aplicação
+- `src/app/api/blueberry/login/route.ts` - API de login
+- `src/app/api/blueberry/classes/route.ts` - API de turmas
+- `src/app/api/blueberry/students/route.ts` - API de alunos
+- `src/app/api/blueberry/kcs/route.ts` - API de componentes de conhecimento
+- `src/components/blueberry/LoginForm.tsx` - Formulário de login
+- `src/components/blueberry/ClassSelector.tsx` - Seletor de turmas
+- `src/components/blueberry/PeriodFilter.tsx` - Filtro de período
+- `src/components/blueberry/StudentCard.tsx` - Card de aluno
+- `src/components/blueberry/ClassDashboard.tsx` - Dashboard da turma
+- `src/store/auth.ts` - Store de autenticação
+- `src/store/app.ts` - Store da aplicação
+- `src/lib/validation.ts` - Utilitários de validação
+- `src/lib/traffic-light.ts` - Utilitários de semáforo
+- `src/types/blueberry.ts` - Tipos TypeScript
+- `package.json` - Dependências do projeto
+
+### Diretórios Completos
+- `src/app/api/blueberry/` - Todas as APIs Blueberry
+- `src/components/blueberry/` - Todos os componentes Blueberry
+- `src/lib/` - Todos os utilitários
+- `src/store/` - Todas as stores Zustand
+- `src/types/` - Todos os tipos
+
+---
+
+## ⚠️ Boas Práticas
+
+### Quando Criar Checkpoints
+1. **Antes de grandes mudanças**
+   ```bash
+   bash create-checkpoint.sh "Antes de refatorar sistema de validação"
+   ```
+
+2. **Após features importantes**
+   ```bash
+   bash create-checkpoint.sh "Login direto implementado com sucesso"
+   ```
+
+3. **Quando algo está funcionando bem**
+   ```bash
+   bash create-checkpoint.sh "Versão estável - todas as funcionalidades testadas"
+   ```
+
+4. **Antes de experimentar algo arriscado**
+   ```bash
+   bash create-checkpoint.sh "Versão funcional antes de tentar nova arquitetura"
+   ```
+
+### Quando Restaurar Checkpoints
+1. **Quando algo quebrou**
+   ```bash
+   bash restore-checkpoint.sh
+   ```
+
+2. **Quando querer descartar experimentos**
+   ```bash
+   bash restore-checkpoint.sh checkpoint_estavel_anterior
+   ```
+
+3. **Quando a funcionalidade principal parou de funcionar**
+   ```bash
+   bash restore-checkpoint.sh checkpoint_ultima_versao_funcional
+   ```
+
+---
+
+## 🔄 Fluxo de Trabalho Sugerido
+
+```
+1. Criar checkpoint do estado atual
+   ↓
+2. Fazer mudanças/experimentos
+   ↓
+3. Testar as mudanças
+   ↓
+4a. Se funcionou → Criar novo checkpoint
+   ↓
+4b. Se falhou → Restaurar checkpoint anterior
+   ↓
+5. Repetir
+```
+
+---
+
+## 📝 Comandos Rápidos
+
+### Criar checkpoint rápido
+```bash
+bash create-checkpoint.sh
+```
+
+### Restaurar último checkpoint
+```bash
+bash restore-checkpoint.sh
+```
+
+### Ver checkpoints disponíveis
+```bash
+ls -lht /home/z/my-project/checkpoints/
+```
+
+### Limpar checkpoints antigos (manual)
+```bash
+# Remover checkpoint específico
+rm -rf /home/z/my-project/checkpoints/checkpoint_ID
+
+# Remover checkpoints mais antigos que X dias (ex: 30 dias)
+find /home/z/my-project/checkpoints/ -type d -mtime +30 -exec rm -rf {} \;
+```
+
+---
+
+## ⚠️ Limitações
+
+- Os checkpoints **não incluem** arquivos temporários e cache
+- O cache `.next/` sempre é recriado após restauração
+- Checkpoints ocupam espaço em disco (~1-5MB cada)
+- **NÃO faça commit** da pasta `checkpoints/` no Git (adicionar ao .gitignore)
+
+---
+
+## 🛠️ Solução de Problemas
+
+### Erro: "Nenhum checkpoint encontrado"
+- Verifique se a pasta `/home/z/my-project/checkpoints/` existe
+- Crie um checkpoint primeiro: `bash create-checkpoint.sh`
+
+### Erro: "Checkpoint não encontrado"
+- Liste os checkpoints disponíveis: `ls /home/z/my-project/checkpoints/`
+- Use o ID exato do checkpoint
+
+### Erro de permissão
+```bash
+chmod +x create-checkpoint.sh restore-checkpoint.sh
+```
+
+### Arquivos não são restaurados
+- Verifique se os arquivos existem no checkpoint: `ls -la checkpoints/checkpoint_ID/`
+- Confirme se está no diretório correto do projeto
+
+---
+
+## 💡 Dicas
+
+1. **Use descrições descritivas** no checkpoint
+   - ✅ "Login direto implementado"
+   - ❌ "checkpoint 1"
+
+2. **Crie checkpoint antes de mudanças grandes**
+   - Melhor prevenir do que remediar
+
+3. **Mantenha checkpoints de versões estáveis**
+   - Use como base de retorno seguro
+
+4. **Limpe checkpoints antigos periodicamente**
+   - Economiza espaço em disco
+
+5. **Documente checkpoints importantes no worklog.md**
+   - Facilita encontrar versões específicas depois
+
+---
+
+## 📚 Documentação Relacionada
+
+- `worklog.md` - Registro detalhado de todas as tarefas
+- `COMO-FAZER-LOGGING.md` - Guia de logging automático
+- `Processo e Playbook.docx` - Playbook do projeto
+
+---
+
+**Última atualização:** Janeiro 2025
+**Versão:** 1.0
